@@ -1,0 +1,31 @@
+{
+    "name": "rodrom/advent202211",
+    "description": "Day 11: Monkey in the Middle",
+    "type": "project",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rodrom\\Advent202211\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rodrom\\Advent202211\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RodRom",
+            "email": "romangarciarod@outlook.com"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
